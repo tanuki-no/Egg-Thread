@@ -1,0 +1,17 @@
+# Egg::Thread library configuration
+
+IF ( NOT EggThreadIncludePath OR
+     NOT EggThreadLibraryPath )
+
+  SET (	EggThreadIncludePath	"@CMAKE_INSTALL_FULL_INCLUDEDIR@"
+        CACHE		PATH "Egg (Linux SDK) @LibraryName@ includes"	)
+
+  SET (	EggThreadLibraryPath	"@CMAKE_INSTALL_FULL_LIBDIR@"
+        CACHE		PATH "Egg (Linux SDK) @LibraryName@ library"	)
+
+  SET (	EggThreadLibraryName	"@LibraryName@"
+        CACHE		PATH "Egg (Linux SDK) @LibraryName@ library name"	)
+
+ENDIF ()
+
+# End of file
