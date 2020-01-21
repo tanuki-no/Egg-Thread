@@ -8,7 +8,13 @@ SDK) project. The thread library requires the Egg::System to be installed.
 
 Configure and install thread library for Egg (Linux daemon SDK):
 
-  - pushd build
+  - create build:
+  
+    mkdir build
+
+  - enter build:
+  
+    pushd build
 
   - configure using cmake: "cmake OPTIONS ..", where the options are:
 
@@ -35,6 +41,6 @@ Configure and install thread library for Egg (Linux daemon SDK):
   
     rm -rf ./*
 
-  - Leav build
+  - Leave build
   
     popd
