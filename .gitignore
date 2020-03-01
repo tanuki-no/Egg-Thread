@@ -33,3 +33,7 @@ build/*
 *.exe
 *.out
 *.app
+
+# Project
+.project
+.cproject
